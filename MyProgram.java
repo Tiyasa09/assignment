@@ -1,11 +1,9 @@
-package operator1;
+package object;
 
 public class MyProgram {
 
-	public static void main(String[] args) {
-		DisplayMessage program=new DisplayMessage();
-		program.printMessage();
+	public static void main(String args[]) {
+		System.out.println("My First Java Program");
+	}}
 
-	}
 
-}
