@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class ArrayCopy {
 	 public static void main(String[] args) {
-		   int[] a = {25,65,34,76,23,95};
-		   int[] A = new int[6];     
+		   int[] a = {25,65,34,76,23,95}; //initialize array
+		   int[] A = new int[6];   //size  
 		 
 		   System.out.println("original array : "+Arrays.toString(a));     
 		   
